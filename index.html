@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Telegram Bot</title>
+    <!--
+        <style>
+      img {
+        width: 500px;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 10px;
+        float: left;
+        margin-right: 10px;
+      }
+      .userName {
+        font-weight: bold;
+      }
+      h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      body {
+        background: yellowgreen;
+      }
+    </style>>
+-->
+  </head>
+
+  <body>
+    <h2>Welcome to telegram bot application</h2>
+    <p>
+      We are going to build one form then will
+      <strong>integrate it with telegram bot</strong>
+    </p>
+    <main>
+      <form id="bot">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Text1</label>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="enter first text"
+            id="text1"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Text2</label>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="enter second text"
+            id="text2"
+            required
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </main>
+
+    <!--           
+    <img src="/Image/wallpaper.jpg" alt="An image" />
+    <a href="/about/about.html" target=" ">About US</a><br />
+    <a href="mailto:paramjeetyadav@gmail.com">Email US</a>
+    -->
+  </body>
+
+  <script src="form.js"></script>
+</html>
