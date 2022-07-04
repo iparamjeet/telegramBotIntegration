@@ -17,5 +17,6 @@ form.addEventListener("submit", function(e){
     api.open("GET", url, true);
     api.send();
 
+    form.reset();
     console.log(msg);
 })
