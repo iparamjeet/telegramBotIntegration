@@ -17,5 +17,5 @@ form.addEventListener("submit", function(e){
     api.open("GET", url, true);
     api.send();
 
-    console.log(text1, text2);
+    console.log(msg);
 })
